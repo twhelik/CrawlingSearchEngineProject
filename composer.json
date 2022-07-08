@@ -1,0 +1,21 @@
+{
+    "name": "search-engine/crawling-search-engine-project",
+    "description": "The package is supposed to be a library for crawling search engine results and extracting metadata for a set of keywords for the first 5 pages.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SearchEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Helik Tribuwan",
+            "email": "heliktribuwan995@gmail.com"
+        }
+    ],
+    "require": {
+            "php": ">=7.2",
+            "ext-curl": "*"
+    }
+    
+}
